@@ -1,4 +1,4 @@
-name: hawk-sensor-health 
+name: hawk-sensor-testing 
 version: v1alpha
 type: lens
 tags:
@@ -17,8 +17,8 @@ lens:
     name: arablecluster
     catalog: lakehouse
   repo:  
-    url: https://bitbucket.org/tmdc/arable
-    lensBaseDir: arable/poc/sensor-health-semantic-model/hawk-sensor-health/model
+    url: https://github.com/Yash2141/semantic-model
+    lensBaseDir: semantic-model/sensor-health-semantic-model/hawk-sensor-health/model
     syncFlags:
       - --ref=main
   api:   # optional
