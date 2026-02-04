@@ -48,4 +48,4 @@ SELECT
   updated_at,
   health_status_6hr_window
 FROM
-  "lakehouse"."hawk".hawk_sensor_good_health
+  "lakehouse"."sample".sensor_good_health
